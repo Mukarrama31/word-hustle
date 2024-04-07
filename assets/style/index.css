@@ -1,24 +1,22 @@
-@charset "utf-8";
-
 body {
     font-family: Arial, sans-serif;
     background-color: #324d97; 
     color: #fff;
     margin: 0;
-}
+  }
   
 .container {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url('assets/image/img1.gif');
+    background-image: url('../image/img1.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
      
 .game-image {
     max-width: 100%;
@@ -31,7 +29,6 @@ h1 {
     color: #06021d;
     font-size: 32px;
 }
-  
 .game {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8); /* Light background color for game section */
@@ -40,21 +37,18 @@ h1 {
     margin: 20px;
     width: 30%;
 }
-  
 .time {
     font-size: 60px;
     color: #1b3b2a;
 }
 .seconds{
     color:#1b3b2a;
-  
 }
 .word {
     font-size: 32px;
     margin: 20px 0;
     color: #333;
 }
-  
 .userInput {
     padding: 10px;
     font-size: 16px;
@@ -68,7 +62,6 @@ h1 {
     font-size: 18px;
     color: #333;
 }
-  
 .startBtn {
     background-color: #007bff;
     color: #fff;
